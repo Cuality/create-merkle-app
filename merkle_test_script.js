@@ -4,7 +4,7 @@ const { MerkleTree } = require('merkletreejs')
 const keccak256 = require('keccak256')
 
 const whitelist = [
-    '0x717593345E361D1345E07706dAFD61c990Cc9580',
+    '0x6A18ebB2E2D48ff4CcC18E620F7F8465F4216C6D',
     '0x26AA77E25557f0785e4DB6753d56300Dd90f2B60',
     '0xa4Cd575392CaB84a804cdcef3C3fDcE134B451ed',
 ]
