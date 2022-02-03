@@ -4,9 +4,9 @@ const { MerkleTree } = require('merkletreejs')
 const keccak256 = require('keccak256')
 
 const whitelist = [
-  '0xeC1a069387E41765d20ED4218737c914dFa5403e',
-  '0x3a6372B2013f9876a84761187d933DEe0653E377',
-  '0x42FC6bF3B3F247d528483279153cd32a8De9Bc53',
+    '0x717593345E361D1345E07706dAFD61c990Cc9580',
+    '0x26AA77E25557f0785e4DB6753d56300Dd90f2B60',
+    '0xa4Cd575392CaB84a804cdcef3C3fDcE134B451ed',
 ]
 
 // const notIn = '0xf3bFE9629DC27282ea2BD663bC521F3b89c4617d';
@@ -22,7 +22,7 @@ console.log('')
 console.log('Whitelist Merkle Treen\n', merkleTree.toString())
 
 const address = whitelist[0]
-// const address = notIn
+    // const address = notIn
 
 const hexProof = merkleTree.getHexProof(keccak256(address))
 console.log('proof:', hexProof)
